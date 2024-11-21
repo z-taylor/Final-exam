@@ -5,6 +5,7 @@ def calculateAverage(list):
         avg += list[i]
     finalAvg = avg/(len(list))
     return finalAvg
+
 labGrades, assignmentGrades = [], []
 for i in range(13):
     labGrades.append(int(input(f"Enter grade for lab {i+1}: ")))
